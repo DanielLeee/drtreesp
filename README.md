@@ -6,6 +6,8 @@ This is the official implementation of the following paper accepted to *NeurIPS 
 > 
 > Yeshu Li, Danyal Saeed, Xinhua Zhang, Brian D. Ziebart, Kevin Gimpel
 > 
+> *36th Conference on Neural Information Processing Systems (NeurIPS 2022)*
+> 
 > [[Proceeding PDF link TBA]]() [[Virtual]](https://nips.cc/virtual/2022/poster/54233) [[OpenReview]](https://openreview.net/forum?id=Tq2XqINV1Jz)
 
 ## Requirements
