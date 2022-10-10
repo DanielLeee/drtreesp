@@ -8,7 +8,11 @@ def multi_exps():
     metric_list = []
     for trial_idx in range(5):
         for n_train in [10, 50, 100, 1000]:
-            ptb_data = np.load('data/ptb_sd330/ptb_biaffine_roberta_pretrainall_trial{}_subset{}.npy'.format(trial_idx, n_train), allow_pickle = True)
+
+            # data path
+            data_path = 'data/ptb_sd330/ptb_biaffine_roberta_pretrainall_trial{}_subset{}.npy'.format(trial_idx, n_train)
+
+            ptb_data = np.load(data_path, allow_pickle = True)
             ptb_data = ptb_data.item()
             num_rels = -1
             mu = 0
@@ -24,10 +28,19 @@ def multi_exps():
             print('#train : {}, #eval : {}, #test : {} '.format(len(train_data), len(eval_data), len(test_data)))
             
             print('train...')
+
+            # Marginal with FW
             opt_theta, best_test_metric = advtree.adv_train(train_data, eval_data, test_data, num_rels = 1, mu = mu, lambd = lambd)
+
+            # Marginal with PQN
             # opt_theta, best_test_metric = advtree.adv_train_pqn(train_data, eval_data, test_data, num_rels = 1, mu = mu, lambd = lambd)
+
+            # Stochastic
             # opt_theta, best_test_metric = advtree.adv_stochastic_train(train_data, eval_data, test_data, num_rels = 1, mu = mu, lambd = lambd, batch_size = min(200, n_train), adv_method = 'marginal', prob_inf = False, learning_rate = 0.1)
+
+            # Game
             # opt_theta, best_test_metric = advtree.adv_stochastic_train(train_data, eval_data, test_data, num_rels = 1, mu = mu, lambd = lambd, batch_size = min(10, n_train), adv_method = 'game', prob_inf = False, learning_rate = 0.1, maxiter = 500)
+
             metric_list.append(best_test_metric)
 
     for metric in metric_list:
