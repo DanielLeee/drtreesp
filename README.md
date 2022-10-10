@@ -33,6 +33,8 @@ to compile the C implementation of [Fast MST](https://github.com/stanojevic/Fast
 
 Refer to the [released data](https://github.com/DanielLeee/drtreesp/releases/download/data/data.zip) for the complete datasets and train/val/test splits in the paper and some examples of the processed data as inputs of our methods. See `script/supar_exp.ipynb` for reproducing baseline experiments and generating input data with pre-trained features for our methods.
 
+Since [SuPar](https://github.com/yzhangcs/parser) has been refactored after this manuscript was submitted, it is suggested that an [older repo](https://github.com/yzhangcs/parser/tree/d4168ff11fdee9f9c6cef8e25e74f7642d2d4bdf) be used for reproducing the baseline results.
+
 Namely, we adopt the data format as follows:
 
 ```Python REPL
