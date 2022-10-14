@@ -97,6 +97,6 @@ TO DO
 
 ## Acknowledgement
 
-This project is based upon work supported by the National Science Foundation under Grant Nos. 1652530 and 1910146.
+This project is based upon work supported by the National Science Foundation under Grant Nos. 1652530, 1910146, and 1934915.
 
 Part of the code is based on [SuPar](https://github.com/yzhangcs/parser), [HPSG](https://github.com/DoodleJZ/HPSG-Neural-Parser), [zmsp](https://github.com/zzsfornlp/zmsp), [Fast MST](https://github.com/stanojevic/Fast-MST-Algorithm).
