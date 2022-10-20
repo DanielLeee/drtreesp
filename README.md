@@ -99,4 +99,4 @@ TO DO
 
 This project is based upon work supported by the National Science Foundation under Grant Nos. 1652530, 1910146, and 1934915.
 
-Part of the code is based on [SuPar](https://github.com/yzhangcs/parser), [HPSG](https://github.com/DoodleJZ/HPSG-Neural-Parser), [zmsp](https://github.com/zzsfornlp/zmsp), [Fast MST](https://github.com/stanojevic/Fast-MST-Algorithm).
+Part of the code is based on [SuPar](https://github.com/yzhangcs/parser), [HPSG](https://github.com/DoodleJZ/HPSG-Neural-Parser), [the Mingled Structured Predictor](https://github.com/zzsfornlp/zmsp), [Berkeley Neural Parser](https://github.com/nikitakit/self-attentive-parser), [LxMLS](https://github.com/LxMLS/lxmls-toolkit), [LAL-Parser](https://github.com/KhalilMrini/LAL-Parser), [MRC](https://github.com/ShannonAI/mrc-for-dependency-parsing), [Fast MST](https://github.com/stanojevic/Fast-MST-Algorithm).
