@@ -1,6 +1,6 @@
 # Moment Distributionally Robust Tree Structured Prediction
 
-This is the official implementation of the following paper accepted to *NeurIPS 2022*:
+This is the official implementation of the following paper accepted to *NeurIPS 2022* (**oral presentation**):
 
 > **Moment Distributionally Robust Tree Structured Prediction**
 > 
