@@ -92,7 +92,15 @@ loss.backward()
 Please cite our work if you find it useful in your research:
 
 ```
-TO DO
+@inproceedings{
+li2022moment,
+title={Moment Distributionally Robust Tree Structured Prediction},
+author={Yeshu Li and Danyal Saeed and Xinhua Zhang and Brian D Ziebart and Kevin Gimpel},
+booktitle={Advances in Neural Information Processing Systems},
+editor={Alice H. Oh and Alekh Agarwal and Danielle Belgrave and Kyunghyun Cho},
+year={2022},
+url={https://openreview.net/forum?id=Tq2XqINV1Jz}
+}
 ```
 
 ## Acknowledgement
