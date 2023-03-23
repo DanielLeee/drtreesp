@@ -8,7 +8,7 @@ This is the official implementation of the following paper accepted to *NeurIPS 
 > 
 > *36th Conference on Neural Information Processing Systems (NeurIPS 2022)*
 > 
-> [[Proceeding PDF link TBA]]() [[Virtual]](https://nips.cc/virtual/2022/poster/54233) [[OpenReview]](https://openreview.net/forum?id=Tq2XqINV1Jz)
+> [[Proceeding]](https://papers.nips.cc/paper_files/paper/2022/hash/4f92d2f498b88f1bd43732312272967a-Abstract-Conference.html) [[Virtual]](https://nips.cc/virtual/2022/poster/54233) [[OpenReview]](https://openreview.net/forum?id=Tq2XqINV1Jz)
 
 ## Requirements
 
@@ -92,14 +92,16 @@ loss.backward()
 Please cite our work if you find it useful in your research:
 
 ```
-@inproceedings{
-li2022moment,
-title={Moment Distributionally Robust Tree Structured Prediction},
-author={Yeshu Li and Danyal Saeed and Xinhua Zhang and Brian D Ziebart and Kevin Gimpel},
-booktitle={Advances in Neural Information Processing Systems},
-editor={Alice H. Oh and Alekh Agarwal and Danielle Belgrave and Kyunghyun Cho},
-year={2022},
-url={https://openreview.net/forum?id=Tq2XqINV1Jz}
+@inproceedings{NEURIPS2022_4f92d2f4,
+ author = {Li, Yeshu and Saeed, Danyal and Zhang, Xinhua and Ziebart, Brian and Gimpel, Kevin},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {S. Koyejo and S. Mohamed and A. Agarwal and D. Belgrave and K. Cho and A. Oh},
+ pages = {12237--12252},
+ publisher = {Curran Associates, Inc.},
+ title = {Moment Distributionally Robust Tree Structured Prediction},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2022/file/4f92d2f498b88f1bd43732312272967a-Paper-Conference.pdf},
+ volume = {35},
+ year = {2022}
 }
 ```
 
